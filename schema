@@ -1,0 +1,16 @@
+create table employee(
+   id MEDIUMINT NOT NULL AUTO_INCREMENT ,
+   name VARCHAR(100) NOT NULL,
+   dept VARCHAR(100),
+   addr VARCHAR(300),
+   skills VARCHAR(100),
+   active BOOLEAN,
+   PRIMARY KEY ( id )
+);
+
+INSERT INTO employee(id,name,dept,addr,skills) VALUES("aaaa","r","d","a","dds")
+
+{"name":"madhu",
+"department":"cs",
+"address":"bang",
+"skills":["golang"]}

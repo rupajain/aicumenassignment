@@ -8,9 +8,4 @@ create table employee(
    PRIMARY KEY ( id )
 );
 
-INSERT INTO employee(id,name,dept,addr,skills) VALUES("aaaa","r","d","a","dds")
 
-{"name":"madhu",
-"department":"cs",
-"address":"bang",
-"skills":["golang"]}

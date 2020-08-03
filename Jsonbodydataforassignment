@@ -1,0 +1,38 @@
+localhost:8080/add POST
+
+ {"name":"anjali",
+"department":"cs",
+"address":"bang",
+"skills":["golang","java","c"]}
+
+
+localhost:8080/list POST
+{"empid": 5}
+
+
+localhost:8080/delete  POST
+{"empid":11}
+OR
+{"empid":4,
+"permanentlyDelete":true
+}
+
+
+localhost:8080/update  POST
+{"empid":20,"department":"cs","address":"bang","skills":["golang","java","c"]}
+
+
+localhost:8080/search
+{"empid":4}
+
+
+localhost:8080/restore
+{
+    "empid":1
+   
+
+}
+
+
+
+

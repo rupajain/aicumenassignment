@@ -22,4 +22,5 @@ Steps to run:
  1. download the source code .add to workspace (src pkg bin folders)copy the source code to src folder
  2. go to src folder and project folder then run  go install
  3. go to bin folder and run ./projectname it runs the project
+ 4. to send the request from postman basicauth authentication has to be provided.
  

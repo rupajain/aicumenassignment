@@ -23,5 +23,6 @@ Steps to run:
  2. go to src folder and project folder then run  go install
  3. go to bin folder and run ./projectname it runs the project
  4. to send the request from postman basicauth authentication has to be provided.
- 5.mysql db should be created please refer the code and attched files.
+ 5.mysql db table should be created please refer the code and attched files.
+ 6. go test -v to run the test cases.
  
